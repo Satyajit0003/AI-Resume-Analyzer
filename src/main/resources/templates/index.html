@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Resume Analyzer</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>AI Resume Analyzer</h1>
+
+    <form id="resumeForm" method="post" action="/analyze" enctype="multipart/form-data">
+        <!-- Resume Upload -->
+        <div class="input-box">
+            <label for="file">Upload Resume (PDF)</label>
+            <input type="file" id="file" name="file" accept="application/pdf" required>
+        </div>
+
+        <!-- Job Description -->
+        <div class="input-box">
+            <label for="jobDescription">Job Description</label>
+            <textarea id="jobDescription" name="jobDescription" rows="6" required></textarea>
+        </div>
+
+        <button type="submit">Analyze</button>
+    </form>
+
+    <!-- Response Section -->
+    <div id="responseBox"></div>
+</div>
+
+<script th:src="@{/script.js}"></script>
+</body>
+</html>
