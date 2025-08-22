@@ -51,7 +51,10 @@ The application is built using Java 17, Spring Boot 3.5.4, and Maven as the buil
 
 **Screenshots:**
 
-[Placeholder for screenshots]
+[Placeholder fo<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/9e084e20-1cdf-4c8d-8967-e6d51cd5a983" />
+r screenshot<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/195105d7-8501-4317-bf41-2e1b4a335d7a" />
+s]<img width="1920" height="1080" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/7a165ec1-84ae-4d85-9d07-ddb262fe60c6" />
+
 
 **API Reference:**
 
